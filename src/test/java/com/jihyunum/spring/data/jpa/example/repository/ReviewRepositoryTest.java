@@ -1,7 +1,6 @@
 package com.jihyunum.spring.data.jpa.example.repository;
 
 import com.jihyunum.spring.data.jpa.example.ExampleApplication;
-import com.jihyunum.spring.data.jpa.example.model.Author;
 import com.jihyunum.spring.data.jpa.example.model.Review;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
