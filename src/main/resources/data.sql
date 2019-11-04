@@ -9,8 +9,8 @@ INSERT INTO books(id, title, author_id)
 VALUES (20002, 'Code Complete: A Practical Handbook of Software Construction', 10002);
 
 INSERT INTO reviews(id, book_id, rating, description)
-VALUES (30001, 10001, 5, 'Great book!');
+VALUES (30001, 20001, 5, 'Great book!');
 INSERT INTO reviews(id, book_id, rating, description)
-VALUES (30002, 10001, 4, 'I really enjoyed reading this book.');
+VALUES (30002, 20001, 4, 'I really enjoyed reading this book.');
 INSERT INTO reviews(id, book_id, rating, description)
-VALUES (30003, 10002, 5, 'Definitely worth a read.');
+VALUES (30003, 20002, 5, 'Definitely worth a read.');
