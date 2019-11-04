@@ -26,7 +26,7 @@ public class Book {
     private String title;
 
     @OneToOne(fetch = FetchType.LAZY)
-    private Writer writer;
+    private Author author;
 
     @OneToMany(mappedBy="book")
     private List<Review> reviews = new ArrayList<>();

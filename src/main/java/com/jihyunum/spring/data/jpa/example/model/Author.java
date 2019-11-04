@@ -10,10 +10,10 @@ import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import javax.validation.constraints.NotNull;
 
-@Entity(name = "writers")
+@Entity(name = "authors")
 @Getter
 @Setter
-public class Writer {
+public class Author {
 
     @Id
     @GeneratedValue
@@ -22,7 +22,7 @@ public class Writer {
     @NotNull
     private String name;
 
-    @OneToOne(fetch = FetchType.LAZY, mappedBy="writer")
+    @OneToOne(fetch = FetchType.LAZY, mappedBy="author")
     private Book book;
 
 }
