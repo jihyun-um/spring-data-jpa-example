@@ -1,5 +1,8 @@
 package com.jihyunum.spring.data.jpa.example.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -11,6 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity(name = "books")
+@Getter
+@Setter
 public class Book {
 
     @Id
