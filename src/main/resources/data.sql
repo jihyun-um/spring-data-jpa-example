@@ -1,12 +1,12 @@
 INSERT INTO authors(id, name)
-VALUES (20001, 'Robert Martin');
+VALUES (10001, 'Robert Martin');
 INSERT INTO authors(id, name)
-VALUES (20002, 'Steve McConnell');
+VALUES (10002, 'Steve McConnell');
 
 INSERT INTO books(id, title, author_id)
-VALUES (10001, 'Clean Code: A Handbook of Agile Software Craftsmanship', 20001);
+VALUES (20001, 'Clean Code: A Handbook of Agile Software Craftsmanship', 10001);
 INSERT INTO books(id, title, author_id)
-VALUES (10002, 'Code Complete: A Practical Handbook of Software Construction', 20002);
+VALUES (20002, 'Code Complete: A Practical Handbook of Software Construction', 10002);
 
 INSERT INTO reviews(id, book_id, rating, description)
 VALUES (30001, 10001, 5, 'Great book!');
